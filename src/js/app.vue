@@ -1,10 +1,17 @@
 <template>
-    <h1>Welcome to this vuejs application</h1>
+    <div>
+        <h1>Welcome to this vuejs application -</h1>
+        <Header />
+    </div>
 </template>
 
 <script>
+import Header from './components/Header';
 export default {
-    name: "app"
+    name: "app",
+    components: {
+        Header
+    }
 }
 </script>
 
